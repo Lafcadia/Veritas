@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic%7CSource+Sans+Pro:900%7CEB+Garamond");
 @font-face { font-family: FZLT; /*这里是说明调用来的字体名字*/ src: url('source/fonts/FZLT.ttf'); /*这里是字体文件路径*/ }
 /* Reset */
 
@@ -143,7 +143,7 @@
 		}
 
 		#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "EB Garamond", Helvetica, sans-serif;
 			color: #ffffff;
 		}
 
@@ -423,11 +423,11 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "EB Garamond", Helvetica, sans-serif;
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		margin: 0 0 1rem 0;
 	}
 
@@ -602,7 +602,7 @@
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "EB Garamond", Helvetica, sans-serif;
 		font-size: 0.8rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
@@ -1022,7 +1022,7 @@
 			transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 			border: solid 2px;
 			display: inline-block;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "EB Garamond", Helvetica, sans-serif;
 			font-size: 0.8rem;
 			font-weight: 900;
 			height: 3rem;
@@ -1087,7 +1087,7 @@
 	}
 
 	.pagination a {
-		color: #212931 !important;
+		color: #eeeeee !important;
 	}
 
 		.pagination a:hover {
@@ -1190,7 +1190,7 @@
 			border-style: solid;
 			border-color: #ffffff;
 			border-width: 5px !important;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "EB Garamond", Helvetica, sans-serif;
 			font-size: 2.25rem;
 			font-weight: 900;
 			letter-spacing: 0.075em;
@@ -1313,7 +1313,7 @@
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "EB Garamond", Helvetica, sans-serif;
 			font-weight: 900;
 			letter-spacing: 0.075em;
 			list-style: none;
@@ -1861,7 +1861,7 @@
 		position: relative;
 		color: rgba(255, 255, 255, 0.25);
 		cursor: default;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "EB Garamond", Helvetica, sans-serif;
 		font-size: 0.8rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
@@ -1971,7 +1971,7 @@
 		right: 0.75rem;
 		border: 0;
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "EB Garamond", Helvetica, sans-serif;
 		font-size: 0.9rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
@@ -2062,7 +2062,7 @@
 				#navPanel .links li a {
 					border-bottom: 0;
 					display: block;
-					font-family: "Source Sans Pro", Helvetica, sans-serif;
+					font-family: "EB Garamond", Helvetica, sans-serif;
 					font-size: 0.9rem;
 					font-size: 0.9rem;
 					font-weight: 900;
@@ -4322,11 +4322,12 @@
 	}
 	.page_title h2{
 		position:absolute;
-		font-size: 2rem;
+		font-size: 1.6rem;
 		font-weight: bold;
 		text-shadow:6px 5px 10px #000;
 		bottom:2px;
 		padding-left: 5%;
+		padding-right: 5%;
 		color:#eeeeee;
 	}
 	.page_title h3{
@@ -4358,7 +4359,7 @@
 		border:none;
 	}
 	.post-content {
-		font-family: FZLT;
+		font-family: "EB Garamond", FZLT;
 	}
 	.post-content li{
 		list-style-type:none;
@@ -4379,32 +4380,32 @@
 	.post-content h1{
 		text-transform:none;
 		font-size: 3rem;
-		font-family: FZLT;
+		font-family: "EB Garamond", FZLT;
 	}
 	.post-content h2{
 		text-transform:none;
-		font-family: FZLT;
+		font-family: "EB Garamond", FZLT;
 		font-size: 2.5rem;	
 	}
 	.post-content h3{
 		text-transform:none;
-		font-family: FZLT;
+		font-family: "EB Garamond", FZLT;
 		font-size: 2rem;
 		
 	}
 	.post-content h4{
 		text-transform:none;
-		font-family: FZLT;
+		font-family: "EB Garamond", FZLT;
 		font-size: 1.5rem;
 	}
 	.post-content h5{
 		text-transform:none;
-		font-family: FZLT;
+		font-family: "EB Garamond", FZLT;
 		font-size: 1.2rem;
 	}
 	.post-content h6{
 		text-transform:none;
-		font-family: FZLT;
+		font-family: "EB Garamond", FZLT;
 		font-size: 1rem;
 	}
 	.post-content code{
